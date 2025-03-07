@@ -55,7 +55,11 @@ public class Subtareas {
     @Override
     public String toString() {
         return "ID: " + id + ", Descripcion: " + descripcion + ", Prioridad: " + prioridad +
+<<<<<<< Updated upstream
                 ", Fecha Limite: " + fechaLimite + ", Completada: " + (completada ? "Si" : "No");
+=======
+                ", Fecha limite: " + fechaLimite + ", Completada: " + (completada ? "Si" : "No");
+>>>>>>> Stashed changes
     }
 	
 }
